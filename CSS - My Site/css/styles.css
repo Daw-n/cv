@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem; /*=40px | 16px=100%=1em*/ 
+    margin: 32px auto; 
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+p {
+    color: #40514E;
+    margin-bottom: 4rem;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    color: #EAF6F6;
+    margin: 90px auto;
+    width: 10%;
+}
+
+.contact-h3 {
+    padding: 15px 0;
+}
+
+.programmer {
+    font-weight: normal;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 10%;
+    position: relative;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 120px;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+    line-height: 2;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.footer-para {
+    color: #EAF6F6;
+    font-size: 13px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+}
+
+.profile-img {
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.laptop-img {
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 30%
+}
+
+.pencil-img {
+    float: right;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+.btn {
+    box-shadow: 0px 0px 0px 2px #13a6b0;
+	background:linear-gradient(to bottom, #18d9c2 5%, #059999 100%);
+	background-color:#18d9c2;
+	border-radius:10px;
+	border:1px solid #21c6cc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	padding:12px 20px;
+	text-decoration:none;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #059999 5%, #18d9c2 100%);
+	background-color:#059999;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
